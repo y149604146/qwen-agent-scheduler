@@ -1,0 +1,4 @@
+# file: D:\LLM\kiro\scheduler\services\resource_manager.py
+# hypothesis_version: 6.148.7
+
+['available_capacity', 'executing_tasks', 'max_concurrent_tasks', 'total_capacity', 'used_capacity', 'waiting_tasks']

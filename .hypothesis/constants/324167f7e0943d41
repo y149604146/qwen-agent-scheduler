@@ -1,0 +1,4 @@
+# file: D:\LLM\kiro\scheduler\api\routes\agents.py
+# hypothesis_version: 6.148.7
+
+[300, ',', '/api/v1/agents', '/{agent_id}', 'agents', 'qwen-agent LLM 配置', '优先级', '元数据', '可用工具列表', '响应消息', '总数', '是否成功删除', '智能体ID', '智能体列表', '智能体名称', '智能体唯一标识符', '智能体描述', '最大并发任务数', '能力标签', '超时时间（秒）']

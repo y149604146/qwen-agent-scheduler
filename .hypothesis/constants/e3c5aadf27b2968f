@@ -1,0 +1,4 @@
+# file: D:\LLM\kiro\scheduler\api\middleware.py
+# hypothesis_version: 6.148.7
+
+['INVALID_VALUE', 'VALIDATION_ERROR', 'X-Process-Time', 'details', 'error_code', 'error_message', 'error_type', 'errors', 'message', 'timestamp', 'traceback']

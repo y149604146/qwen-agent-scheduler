@@ -1,0 +1,25 @@
+2025-12-18 16:47:58,133 - __main__ - INFO - ============================================================
+2025-12-18 16:47:58,133 - __main__ - INFO - Method Registration System Starting
+2025-12-18 16:47:58,133 - __main__ - INFO - ============================================================
+2025-12-18 16:47:58,133 - __main__ - INFO - Loading model configuration from: config/model_config.yaml
+2025-12-18 16:47:58,137 - __main__ - INFO - Model: qwen3:4b
+2025-12-18 16:47:58,137 - __main__ - INFO - Database: test_db on localhost:5432
+2025-12-18 16:47:58,137 - __main__ - INFO - Loading methods configuration from: config/methods.yaml
+2025-12-18 16:47:58,139 - __main__ - INFO - Loaded 2 method(s) from configuration
+2025-12-18 16:47:58,139 - __main__ - INFO - Validating method metadata...
+2025-12-18 16:47:58,140 - __main__ - INFO - All 2 method(s) validated successfully
+2025-12-18 16:47:58,140 - __main__ - INFO - Writing methods to database...
+2025-12-18 16:47:58,159 - shared.db_schema - INFO - Database connection pool initialized (size: 5)
+2025-12-18 16:47:58,159 - db_client - INFO - DatabaseWriter initialized successfully
+2025-12-18 16:47:58,159 - __main__ - INFO - Ensuring database schema exists...
+2025-12-18 16:47:58,159 - shared.db_schema - INFO - Creating registered_methods table if not exists...
+2025-12-18 16:47:58,161 - shared.db_schema - INFO - Creating indexes...
+2025-12-18 16:47:58,163 - shared.db_schema - INFO - Creating trigger function...
+2025-12-18 16:47:58,165 - shared.db_schema - INFO - Creating trigger...
+2025-12-18 16:47:58,168 - shared.db_schema - INFO - Database schema initialized successfully
+2025-12-18 16:47:58,168 - db_client - INFO - Database schema ensured successfully
+2025-12-18 16:47:58,172 - db_client - INFO - Successfully upserted 2 methods
+2025-12-18 16:47:58,172 - __main__ - INFO - Successfully registered 2 method(s) to database
+2025-12-18 16:47:58,172 - __main__ - INFO - ============================================================
+2025-12-18 16:47:58,172 - __main__ - INFO - Method Registration Completed Successfully
+2025-12-18 16:47:58,173 - __main__ - INFO - ============================================================

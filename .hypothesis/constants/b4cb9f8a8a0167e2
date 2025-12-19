@@ -1,0 +1,4 @@
+# file: D:\LLM\kiro\scheduler\models\task.py
+# hypothesis_version: 6.148.7
+
+[0.0, 1.0, 'TaskState', 'TaskStatus', 'after', 'cancelled', 'completed', 'executing', 'failed', 'frozen', 'parsing', 'pending', 'planning', '任务唯一标识符', '任务意图', '任务描述', '任务状态', '优先级', '依赖的其他子任务ID', '元数据', '创建时间', '子任务唯一标识符', '子任务描述', '已完成的步骤ID', '当前步骤', '总步骤数', '所需能力', '提取的实体', '更新时间', '父任务ID', '约束条件', '进度 (0.0 到 1.0)', '错误信息']

@@ -1,0 +1,4 @@
+# file: D:\LLM\kiro\method-registration\src\validator.py
+# hypothesis_version: 6.148.7
+
+[100, 500, 1000, '.', 'Any', 'None', 'NoneType', 'array', 'bool', 'boolean', 'bytearray', 'bytes', 'dict', 'dictionary', 'float', 'int', 'integer', 'list', 'set', 'str', 'string', 'tuple']

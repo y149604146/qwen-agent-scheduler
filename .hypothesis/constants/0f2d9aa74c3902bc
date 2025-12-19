@@ -1,0 +1,4 @@
+# file: D:\LLM\kiro\scheduler\api\routes\history.py
+# hypothesis_version: 6.148.7
+
+[100, 1000, '/analytics', '/api/v1', '/history', '/history/{task_id}', 'agent_metrics', 'analytics', 'history', 'overall_stats', 'report_time', 'time_range', 'trends', '历史记录列表', '开始时间早于（ISO格式）', '开始时间晚于（ISO格式）', '总数', '报告开始时间（ISO格式）', '报告时间', '报告结束时间（ISO格式）', '整体统计', '时间范围', '智能体ID过滤', '智能体性能指标', '状态过滤', '趋势分析', '限制返回数量']

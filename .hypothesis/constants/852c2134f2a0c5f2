@@ -1,0 +1,4 @@
+# file: D:\LLM\kiro\scheduler\services\result_aggregator.py
+# hypothesis_version: 6.148.7
+
+[100, '\n错误详情:', '(无输出)', '-', '...', '=', 'agent_id', 'agent_ids', 'agent_results', 'error', 'errors', 'execution_time', 'failure_count', 'json', 'metadata', 'output', 'step_id', 'success', 'success_count', 'task_id', 'text', 'total_agents', 'total_execution_time', 'unknown', '✓', '✗', '失败 ✗', '成功 ✓', '智能体执行详情:', '统计信息:', '输出结果:']

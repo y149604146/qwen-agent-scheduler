@@ -1,0 +1,4 @@
+# file: D:\LLM\kiro\shared\config_loader.py
+# hypothesis_version: 6.148.7
+
+[0.0, 0.7, 2.0, 2000, 65535, 'api_base', 'database', 'default', 'description', 'function_name', 'host', 'max_tokens', 'methods', 'model', 'module_path', 'name', 'parameters', 'password', 'pool_size', 'port', 'r', 'required', 'return_type', 'temperature', 'timeout', 'type', 'user', 'utf-8']

@@ -1,0 +1,4 @@
+# file: D:\LLM\kiro\scheduler\services\performance_analyzer.py
+# hypothesis_version: 6.148.7
+
+[0.0, 'agent_id', 'agent_metrics', 'average_duration', 'cancelled_tasks', 'completed', 'completed_tasks', 'daily_trends', 'date', 'failed', 'failed_tasks', 'overall_stats', 'overall_success_rate', 'report_time', 'success_rate', 'successful_tasks', 'time_range', 'total', 'total_duration', 'total_execution_time', 'total_tasks', 'trends']

@@ -1,0 +1,22 @@
+{
+  "model": {
+    "name": "qwen3:4b",
+    "api_base": "http://localhost:11434",
+    "timeout": 30,
+    "temperature": 0.7,
+    "max_tokens": 2000
+  },
+  "database": {
+    "host": "localhost",
+    "port": 5432,
+    "database": "test_db",
+    "user": "yuanyuan",
+    "password": "666666",
+    "pool_size": 5
+  },
+  "logging": {
+    "level": "INFO",
+    "format": "%(asctime)s - %(name)s - %(levelname)s - %(message)s",
+    "file": "logs/app.log"
+  }
+}

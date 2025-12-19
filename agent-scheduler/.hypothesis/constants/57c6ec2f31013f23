@@ -1,0 +1,4 @@
+# file: D:\LLM\kiro\agent-scheduler\src\agent_client.py
+# hypothesis_version: 6.148.7
+
+['BaseTool', '_tool_instances', 'api_base', 'content', 'description', 'function_call', 'generate_cfg', 'max_tokens', 'model', 'name', 'parameters', 'role', 'success', 'temperature', 'user']

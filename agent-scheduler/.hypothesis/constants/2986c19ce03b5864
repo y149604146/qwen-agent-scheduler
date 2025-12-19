@@ -1,0 +1,4 @@
+# file: D:\LLM\kiro\method-registration\src\db_client.py
+# hypothesis_version: 6.148.7
+
+['created_at', 'description', 'function_name', 'id', 'module_path', 'name', 'parameters_json', 'return_type', 'updated_at']

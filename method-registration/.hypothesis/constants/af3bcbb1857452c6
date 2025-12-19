@@ -1,0 +1,4 @@
+# file: D:\LLM\kiro\method-registration\src\config_parser.py
+# hypothesis_version: 6.148.7
+
+[0.0, 0.7, 2.0, 2000, '.json', '.yaml', '.yml', 'api_base', 'default', 'description', 'function_name', 'json', 'max_tokens', 'methods', 'model', 'module_path', 'name', 'parameters', 'r', 'required', 'return_type', 'temperature', 'timeout', 'type', 'utf-8', 'yaml']

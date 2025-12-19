@@ -1,0 +1,4 @@
+# file: D:\LLM\kiro\scheduler\models\agent.py
+# hypothesis_version: 6.148.7
+
+[300, 'capabilities', 'frozen', 'llm_config', 'qwen-agent LLM 配置', '优先级', '元数据', '可用工具列表', '智能体名称', '智能体唯一标识符', '智能体描述', '最大并发任务数', '能力标签', '超时时间（秒）']

@@ -1,0 +1,1 @@
+"""Method Registration System tests"""

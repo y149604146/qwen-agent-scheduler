@@ -1,0 +1,4 @@
+# file: D:\LLM\kiro\agent-scheduler\src\api.py
+# hypothesis_version: 6.148.7
+
+[400, 404, 500, '/', '/api/methods', '/api/tasks', '/api/tasks/{task_id}', '/health', '1.0.0', 'Current task status', 'Error message', 'Health', 'Invalid request', 'Method description', 'Method name', 'Methods', 'Return value type', 'Server error', 'Task not found', 'Tasks', 'Unknown error', 'Z', 'agent_client', 'completed', 'completed_at', 'created_at', 'description', 'detail', 'error', 'failed', 'healthy', 'method_loader', 'model', 'ok', 'pending', 'processing', 'result', 'service', 'status', 'task_id']

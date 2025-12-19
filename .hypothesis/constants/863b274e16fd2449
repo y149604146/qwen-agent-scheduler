@@ -1,0 +1,4 @@
+# file: D:\LLM\kiro\scheduler\services\coordinator.py
+# hypothesis_version: 6.148.7
+
+[300, 'agent_id', 'agent_results', 'completed', 'dependencies', 'dependencies_output', 'description', 'failed_steps', 'main', 'outputs', 'result', 'shared_data', 'status', 'subtask_id', 'subtasks', 'successful_steps', 'timeout', 'timestamp', 'total_execution_time', 'total_steps']

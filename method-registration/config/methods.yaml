@@ -1,0 +1,59 @@
+# Method Registration Configuration
+# This file defines the methods that will be registered in the database
+# for the Agent Scheduler Brain to use.
+#
+# Each method must include:
+# - name: Method name (must be a valid Python identifier, 2-100 characters)
+# - description: Method description (1-1000 characters)
+# - module_path: Python module path where the function is located
+# - function_name: Name of the function to call
+# - parameters: List of parameters (each with name, type, description, required, optional default)
+# - return_type: Return value type (string, int, float, bool, dict, list, None, etc.)
+
+methods:
+  # Example 1: Weather query method
+  - name: "get_weather"
+    description: "获取指定城市的天气信息"
+    module_path: "tools.weather"              # Module path relative to workspace
+    function_name: "get_weather"              # Function name in the module
+    parameters:
+      - name: "city"
+        type: "string"
+        description: "城市名称"
+        required: true
+      - name: "unit"
+        type: "string"
+        description: "温度单位，celsius或fahrenheit"
+        required: false
+        default: "celsius"                    # Default value for optional parameters
+    return_type: "dict"
+  
+  # Example 2: Calculator method
+  - name: "calculate"
+    description: "执行数学计算"
+    module_path: "tools.calculator"
+    function_name: "calculate"
+    parameters:
+      - name: "expression"
+        type: "string"
+        description: "数学表达式"
+        required: true
+    return_type: "float"
+
+  - name: "customer_tool_call"
+    description: "添加定制化方法，测试是否及时生效"
+    module_path: "tools.customer_test"
+    function_name: "customer_tool_call"
+    return_type: "str"
+
+# Add more methods below following the same format
+# - name: "your_method_name"
+#   description: "Your method description"
+#   module_path: "your.module.path"
+#   function_name: "your_function_name"
+#   parameters:
+#     - name: "param1"
+#       type: "string"
+#       description: "Parameter description"
+#       required: true
+#   return_type: "dict"

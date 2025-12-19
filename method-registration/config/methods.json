@@ -1,0 +1,50 @@
+{
+  "methods": [
+    {
+      "name": "get_weather",
+      "description": "获取指定城市的天气信息",
+      "module_path": "tools.weather",
+      "function_name": "get_weather",
+      "parameters": [
+        {
+          "name": "city",
+          "type": "string",
+          "description": "城市名称",
+          "required": true
+        },
+        {
+          "name": "unit",
+          "type": "string",
+          "description": "温度单位，celsius或fahrenheit",
+          "required": false,
+          "default": "celsius"
+        }
+      ],
+      "return_type": "dict"
+    },
+    {
+      "name": "calculate",
+      "description": "执行数学计算",
+      "module_path": "tools.calculator",
+      "function_name": "calculate",
+      "parameters": [
+        {
+          "name": "expression",
+          "type": "string",
+          "description": "数学表达式",
+          "required": true
+        }
+      ],
+      "return_type": "float"
+    },
+    {
+      "name": "customer_tool_call",
+      "description": "添加定制化方法，测试是否及时生效",
+      "module_path": "tools.customer_tool_call",
+      "function_name": "customer_tool_call",
+      "parameters": [
+      ],
+      "return_type": "str"
+    }
+  ]
+}

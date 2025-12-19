@@ -1,0 +1,27 @@
+# Model Configuration for Agent Scheduler Brain
+# This file configures the Ollama/qwen model and PostgreSQL database connection
+#
+# The Agent Scheduler Brain uses this configuration to:
+# 1. Connect to the Ollama service for natural language understanding
+# 2. Load registered methods from the PostgreSQL database
+# 3. Execute methods based on user tasks
+
+model:
+  name: "qwen3:4b"                          # Ollama model name (e.g., qwen3:4b, qwen2:7b)
+  api_base: "http://localhost:11434"        # Ollama API endpoint
+  timeout: 30                                # Request timeout in seconds
+  temperature: 0.7                           # Generation temperature (0.0-1.0, higher = more creative)
+  max_tokens: 2000                           # Maximum tokens to generate
+
+database:
+  host: "localhost"                          # PostgreSQL host address
+  port: 5432                                 # PostgreSQL port (default: 5432)
+  database: "test_db"                  # Database name (must match method-registration config)
+  user: "yuanyuan"                           # Database user
+  password: "666666"                       # Database password (CHANGE THIS!)
+  pool_size: 5                               # Connection pool size
+
+logging:
+  level: "INFO"                              # Log level: DEBUG, INFO, WARNING, ERROR, CRITICAL
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+  file: "logs/agent_scheduler.log"           # Log file path (relative or absolute)

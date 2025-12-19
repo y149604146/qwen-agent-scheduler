@@ -1,0 +1,10 @@
+# Root Requirements - Install all dependencies for development
+
+# Shared dependencies
+-r shared/requirements.txt
+
+# Method Registration System
+-r method-registration/requirements.txt
+
+# Agent Scheduler Brain
+-r agent-scheduler/requirements.txt

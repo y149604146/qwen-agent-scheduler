@@ -1,0 +1,4 @@
+# file: D:\LLM\kiro\shared\db_schema.py
+# hypothesis_version: 6.148.7
+
+['Creating indexes...', 'Creating trigger...', 'SELECT 1']

@@ -1,0 +1,4 @@
+# file: D:\LLM\kiro\agent-scheduler\src\main.py
+# hypothesis_version: 6.148.7
+
+[0.0, 8000, '%Y-%m-%d %H:%M:%S', '--config', '--host', '--log-file', '--log-level', '--port', '0.0.0.0', '=', 'CRITICAL', 'DEBUG', 'ERROR', 'INFO', 'MethodLoader closed', 'WARNING', '__main__', 'info', 'utf-8']
